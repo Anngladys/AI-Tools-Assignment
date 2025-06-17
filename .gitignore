@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+# Jupyter
+.ipynb_checkpoints/
+# VS Code
+.vscode/
+# Models (we will save small models, so we won't ignore all .h5 or .pth)
+# If a model becomes very large, you might add it here.
+# Datasets (if you download large ones)
+*.csv
+*.txt
